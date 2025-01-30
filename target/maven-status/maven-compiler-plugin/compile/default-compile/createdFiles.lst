@@ -1,0 +1,4 @@
+config/ConfigManager.class
+services/AuthService.class
+com/videogame/api/App.class
+services/GameService.class
