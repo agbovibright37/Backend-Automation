@@ -33,10 +33,10 @@ jobs:
       - name: Run Tests
         run: mvn test
 
-      # ✅ Step 5: Upload test reports (for debugging)
+      # ✅ Step 5: Upload test reports (Updated to v4)
       - name: Upload Test Reports
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: test-reports
           path: target/surefire-reports/
