@@ -11,7 +11,7 @@ public class ConfigManager {
     static {
         try {
             FileInputStream fis = new FileInputStream("src/main/resources/config.properties");
-            properties.load(fis);
+            ConfigManager.properties.load(fis);
         } catch (IOException e) {
             throw new RuntimeException("Failed to load config file: " + e.getMessage());
         }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.167" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.716" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/kekeli/Desktop/videogame-api-test/target/surefire/surefirebooter-20250131180526700_3.jar /Users/kekeli/Desktop/videogame-api-test/target/surefire 2025-01-31T18-05-26_589-jvmRun1 surefire-20250131180526700_1tmp surefire_0-20250131180526700_2tmp"/>
+    <property name="sun.java.command" value="/Users/kekeli/Desktop/videogame-api-test/target/surefire/surefirebooter-20250131182408415_3.jar /Users/kekeli/Desktop/videogame-api-test/target/surefire 2025-01-31T18-24-08_312-jvmRun1 surefire-20250131182408415_1tmp surefire_0-20250131182408415_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/kekeli/Desktop/videogame-api-test/target/test-classes:/Users/kekeli/Desktop/videogame-api-test/target/classes:/Users/kekeli/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/kekeli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kekeli/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/kekeli/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/kekeli/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/kekeli/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/kekeli/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/kekeli/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2/httpclient5-5.2.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/kekeli/.m2/repository/org/testng/testng/7.7.0/testng-7.7.0.jar:/Users/kekeli/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/kekeli/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/kekeli/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/kekeli/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/kekeli/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/kekeli/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/kekeli/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/kekeli/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kekeli/.m2/repository/io/qameta/allure/allure-testng/2.21.0/allure-testng-2.21.0.jar:/Users/kekeli/.m2/repository/io/qameta/allure/allure-java-commons/2.21.0/allure-java-commons-2.21.0.jar:/Users/kekeli/.m2/repository/io/qameta/allure/allure-model/2.21.0/allure-model-2.21.0.jar:/Users/kekeli/.m2/repository/io/qameta/allure/allure-test-filter/2.21.0/allure-test-filter-2.21.0.jar:/Users/kekeli/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/kekeli/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/kekeli/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/kekeli/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/kekeli/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.20.0/log4j-slf4j-impl-2.20.0.jar:"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/kekeli/Desktop/videogame-api-test/target/surefire/surefirebooter-20250131180526700_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/kekeli/Desktop/videogame-api-test/target/surefire/surefirebooter-20250131182408415_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -59,13 +59,13 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testCreateGame" classname="tests.GameTests" time="1.681">
-    <system-out><![CDATA[2025-01-31 18:05:27 [main] INFO  tests.GameTests - [Test Case 3.1] Creating a new game: NewGame1738346727262
-2025-01-31 18:05:27 [main] INFO  services.AuthService - [AuthService] Requesting authentication token...
-2025-01-31 18:05:28 [main] INFO  services.AuthService - [AuthService] Response received in 702 ms
-2025-01-31 18:05:28 [main] INFO  services.AuthService - [AuthService] Authentication successful. Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0NjcyOCwiZXhwIjoxNzM4MzUwMzI4fQ.hQg0Y2mbrFO2rB3ooyOaNu8dw4wdA_Wos08RMfYO0xk
-2025-01-31 18:05:28 [main] INFO  tests.GameTests - [Test Case 3.2] Status code is 200
-2025-01-31 18:05:28 [main] INFO  tests.GameTests - [Test Case 3] Game creation test PASSED!
+  <testcase name="testCreateGame" classname="tests.GameTests" time="1.61">
+    <system-out><![CDATA[2025-01-31 18:24:08 [main] INFO  tests.GameTests - [Test Case 3.1] Creating a new game: NewGame1738347848954
+2025-01-31 18:24:09 [main] INFO  services.AuthService - [AuthService] Requesting authentication token...
+2025-01-31 18:24:09 [main] INFO  services.AuthService - [AuthService] Response received in 630 ms
+2025-01-31 18:24:10 [main] INFO  services.AuthService - [AuthService] Authentication successful. Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0Nzg1MCwiZXhwIjoxNzM4MzUxNDUwfQ.ZCCB3bIDtL29urD29zPv23p4N-vrTyWHbb-LY47aSY4
+2025-01-31 18:24:10 [main] INFO  tests.GameTests - [Test Case 3.2] Status code is 200
+2025-01-31 18:24:10 [main] INFO  tests.GameTests - [Test Case 3] Game creation test PASSED!
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
@@ -75,82 +75,82 @@ SLF4J: Ignoring binding found at [jar:file:/Users/kekeli/.m2/repository/org/apac
 SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 ]]></system-err>
   </testcase>
-  <testcase name="testDeleteGame" classname="tests.GameTests" time="2.171">
-    <system-out><![CDATA[2025-01-31 18:05:28 [main] INFO  tests.GameTests - [Test Case 5.1] Creating a game for deletion test: TestGame1738346728934
-2025-01-31 18:05:28 [main] INFO  services.AuthService - [AuthService] Requesting authentication token...
-2025-01-31 18:05:29 [main] INFO  services.AuthService - [AuthService] Response received in 421 ms
-2025-01-31 18:05:29 [main] INFO  services.AuthService - [AuthService] Authentication successful. Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0NjcyOSwiZXhwIjoxNzM4MzUwMzI5fQ.o49vj1uEtoxuyk3R9DHhMI-UZdp3q1MhFgimcBXZBD4
-2025-01-31 18:05:29 [main] INFO  tests.GameTests - [Test Case 5.3] Extracted Game ID for deletion: 0
-2025-01-31 18:05:29 [main] INFO  services.AuthService - [AuthService] Requesting authentication token...
-2025-01-31 18:05:30 [main] INFO  services.AuthService - [AuthService] Response received in 400 ms
-2025-01-31 18:05:30 [main] INFO  services.AuthService - [AuthService] Authentication successful. Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0NjczMCwiZXhwIjoxNzM4MzUwMzMwfQ.RM53xEycWYkA3Su7khbtZ2JiNOL8NxDxyLap21J_p2U
-2025-01-31 18:05:30 [main] INFO  tests.GameTests - [Test Case 5.4] Delete request acknowledged, but game is not actually removed (Read-Only Mode)
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 5.5] Verified game is not found after deletion attempt
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 5] Delete Game test PASSED! (Read-Only Mode)
+  <testcase name="testDeleteGame" classname="tests.GameTests" time="1.967">
+    <system-out><![CDATA[2025-01-31 18:24:10 [main] INFO  tests.GameTests - [Test Case 5.1] Creating a game for deletion test: TestGame1738347850553
+2025-01-31 18:24:10 [main] INFO  services.AuthService - [AuthService] Requesting authentication token...
+2025-01-31 18:24:10 [main] INFO  services.AuthService - [AuthService] Response received in 368 ms
+2025-01-31 18:24:10 [main] INFO  services.AuthService - [AuthService] Authentication successful. Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0Nzg1MSwiZXhwIjoxNzM4MzUxNDUxfQ.cqegbfmn7I_hE7xMYQ-Wp5bFR6-2XrkaDSQobz6WHwU
+2025-01-31 18:24:11 [main] INFO  tests.GameTests - [Test Case 5.3] Extracted Game ID for deletion: 0
+2025-01-31 18:24:11 [main] INFO  services.AuthService - [AuthService] Requesting authentication token...
+2025-01-31 18:24:11 [main] INFO  services.AuthService - [AuthService] Response received in 373 ms
+2025-01-31 18:24:11 [main] INFO  services.AuthService - [AuthService] Authentication successful. Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0Nzg1MiwiZXhwIjoxNzM4MzUxNDUyfQ._-VQyh7zC612cHHmTDRDFbWW9VEp9bYeEjE1t4bTYkE
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 5.4] Delete request acknowledged, but game is not actually removed (Read-Only Mode)
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 5.5] Verified game is not found after deletion attempt
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 5] Delete Game test PASSED! (Read-Only Mode)
 ]]></system-out>
   </testcase>
-  <testcase name="testGetAllGames" classname="tests.GameTests" time="0.436">
-    <system-out><![CDATA[2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1.1] Fetching all games...
+  <testcase name="testGetAllGames" classname="tests.GameTests" time="0.392">
+    <system-out><![CDATA[2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1.1] Fetching all games...
 Sending request to fetch all games...
 Response received: Status Code -> 200
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1.2] Status code 200: PASSED
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1.3] At least one game exists in list: PASSED
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 1 PASSED
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 2 PASSED
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 3 PASSED
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 4 PASSED
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 5 PASSED
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 6 PASSED
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 7 PASSED
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 8 PASSED
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 9 PASSED
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 10 PASSED
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 1] Get all games: COMPLETED SUCCESSFULLY!
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1.2] Status code 200: PASSED
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1.3] At least one game exists in list: PASSED
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 1 PASSED
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 2 PASSED
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 3 PASSED
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 4 PASSED
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 5 PASSED
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 6 PASSED
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 7 PASSED
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 8 PASSED
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 9 PASSED
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1.4] Valid Game ID: 10 PASSED
+2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 1] Get all games: COMPLETED SUCCESSFULLY!
 ]]></system-out>
   </testcase>
-  <testcase name="testGetGameById" classname="tests.GameTests" time="0.393">
-    <system-out><![CDATA[2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 2.1] Fetching game with ID: 1
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 2.2] Status code is 200
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 2.3] Response contains correct Game ID
-2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 2] Game fetch test PASSED!
+  <testcase name="testGetGameById" classname="tests.GameTests" time="0.37">
+    <system-out><![CDATA[2025-01-31 18:24:12 [main] INFO  tests.GameTests - [Test Case 2.1] Fetching game with ID: 1
+2025-01-31 18:24:13 [main] INFO  tests.GameTests - [Test Case 2.2] Status code is 200
+2025-01-31 18:24:13 [main] INFO  tests.GameTests - [Test Case 2.3] Response contains correct Game ID
+2025-01-31 18:24:13 [main] INFO  tests.GameTests - [Test Case 2] Game fetch test PASSED!
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateGame" classname="tests.GameTests" time="0.793">
-    <system-out><![CDATA[2025-01-31 18:05:31 [main] INFO  tests.GameTests - [Test Case 4.1] Attempting to update Game ID: 1
-2025-01-31 18:05:31 [main] INFO  services.AuthService - [AuthService] Requesting authentication token...
-2025-01-31 18:05:32 [main] INFO  services.AuthService - [AuthService] Response received in 376 ms
-2025-01-31 18:05:32 [main] INFO  services.AuthService - [AuthService] Authentication successful. Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0NjczMiwiZXhwIjoxNzM4MzUwMzMyfQ.PtMa5tYfTZXQnNCaGhzSqk7HOhXcUA4euedoioeEsHQ
-2025-01-31 18:05:32 [main] INFO  tests.GameTests - [Test Case 4.2] Status code is 200
-2025-01-31 18:05:32 [main] INFO  tests.GameTests - [Test Case 4] Game update test PASSED! (Read-Only Mode: Changes won’t persist)
+  <testcase name="testUpdateGame" classname="tests.GameTests" time="0.761">
+    <system-out><![CDATA[2025-01-31 18:24:13 [main] INFO  tests.GameTests - [Test Case 4.1] Attempting to update Game ID: 1
+2025-01-31 18:24:13 [main] INFO  services.AuthService - [AuthService] Requesting authentication token...
+2025-01-31 18:24:13 [main] INFO  services.AuthService - [AuthService] Response received in 367 ms
+2025-01-31 18:24:13 [main] INFO  services.AuthService - [AuthService] Authentication successful. Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0Nzg1MywiZXhwIjoxNzM4MzUxNDUzfQ.yVwG9wN1ooha4pR0n69KL-b8quTbgcDQk2Clec1L3u0
+2025-01-31 18:24:14 [main] INFO  tests.GameTests - [Test Case 4.2] Status code is 200
+2025-01-31 18:24:14 [main] INFO  tests.GameTests - [Test Case 4] Game update test PASSED! (Read-Only Mode: Changes won’t persist)
 ]]></system-out>
   </testcase>
-  <testcase name="testConfigValues" classname="tests.ConfigTest" time="0.006"/>
-  <testcase name="testAuthentication" classname="tests.AuthTests" time="0.398">
-    <system-out><![CDATA[2025-01-31 18:05:32 [main] INFO  tests.AuthTests - [Test Case 1.1] Attempting to authenticate and retrieve token...
-2025-01-31 18:05:32 [main] INFO  services.AuthService - [AuthService] Requesting authentication token...
-2025-01-31 18:05:33 [main] INFO  services.AuthService - [AuthService] Response received in 383 ms
-2025-01-31 18:05:33 [main] INFO  services.AuthService - [AuthService] Authentication successful. Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0NjczMywiZXhwIjoxNzM4MzUwMzMzfQ.xzazvEHUs7urXuxCi8eSQFjJHc8IHTzSXy7M-eOSQHw
-2025-01-31 18:05:33 [main] INFO  tests.AuthTests - [Test Case 1.2] Token successfully retrieved: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0NjczMywiZXhwIjoxNzM4MzUwMzMzfQ.xzazvEHUs7urXuxCi8eSQFjJHc8IHTzSXy7M-eOSQHw
-2025-01-31 18:05:33 [main] INFO  tests.AuthTests - [Test Case 1.3] Token length is valid
-2025-01-31 18:05:33 [main] INFO  tests.AuthTests - [Test Case 1] Authentication test PASSED!
+  <testcase name="testConfigValues" classname="tests.ConfigTest" time="0.003"/>
+  <testcase name="testAuthentication" classname="tests.AuthTests" time="0.38">
+    <system-out><![CDATA[2025-01-31 18:24:14 [main] INFO  tests.AuthTests - [Test Case 1.1] Attempting to authenticate and retrieve token...
+2025-01-31 18:24:14 [main] INFO  services.AuthService - [AuthService] Requesting authentication token...
+2025-01-31 18:24:14 [main] INFO  services.AuthService - [AuthService] Response received in 363 ms
+2025-01-31 18:24:14 [main] INFO  services.AuthService - [AuthService] Authentication successful. Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0Nzg1NCwiZXhwIjoxNzM4MzUxNDU0fQ.qYPWAtLCEAtstf6CqoR-2vYDKEdMzbu0PmZfAiOYv1I
+2025-01-31 18:24:14 [main] INFO  tests.AuthTests - [Test Case 1.2] Token successfully retrieved: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0Nzg1NCwiZXhwIjoxNzM4MzUxNDU0fQ.qYPWAtLCEAtstf6CqoR-2vYDKEdMzbu0PmZfAiOYv1I
+2025-01-31 18:24:14 [main] INFO  tests.AuthTests - [Test Case 1.3] Token length is valid
+2025-01-31 18:24:14 [main] INFO  tests.AuthTests - [Test Case 1] Authentication test PASSED!
 ]]></system-out>
   </testcase>
-  <testcase name="testInvalidAuthentication" classname="tests.AuthTests" time="0.406">
-    <system-out><![CDATA[2025-01-31 18:05:33 [main] INFO  tests.AuthTests - [Test Case 3.1] Attempting authentication with invalid credentials...
-2025-01-31 18:05:33 [main] INFO  services.AuthService - [AuthService] Attempting authentication with invalid credentials...
-2025-01-31 18:05:33 [main] INFO  services.AuthService - [AuthService] Response received in 398 ms
-2025-01-31 18:05:33 [main] INFO  services.AuthService - [AuthService] Authentication failed as expected. Status: 403
-2025-01-31 18:05:33 [main] INFO  tests.AuthTests - [Test Case 3.2] Authentication correctly failed with invalid credentials
-2025-01-31 18:05:33 [main] INFO  tests.AuthTests - [Test Case 3] Invalid authentication test PASSED!
+  <testcase name="testInvalidAuthentication" classname="tests.AuthTests" time="0.37">
+    <system-out><![CDATA[2025-01-31 18:24:14 [main] INFO  tests.AuthTests - [Test Case 3.1] Attempting authentication with invalid credentials...
+2025-01-31 18:24:14 [main] INFO  services.AuthService - [AuthService] Attempting authentication with invalid credentials...
+2025-01-31 18:24:14 [main] INFO  services.AuthService - [AuthService] Response received in 364 ms
+2025-01-31 18:24:14 [main] INFO  services.AuthService - [AuthService] Authentication failed as expected. Status: 403
+2025-01-31 18:24:14 [main] INFO  tests.AuthTests - [Test Case 3.2] Authentication correctly failed with invalid credentials
+2025-01-31 18:24:14 [main] INFO  tests.AuthTests - [Test Case 3] Invalid authentication test PASSED!
 ]]></system-out>
   </testcase>
-  <testcase name="testTokenFormat" classname="tests.AuthTests" time="0.408">
-    <system-out><![CDATA[2025-01-31 18:05:33 [main] INFO  tests.AuthTests - [Test Case 2.1] Checking token format...
-2025-01-31 18:05:33 [main] INFO  services.AuthService - [AuthService] Requesting authentication token...
-2025-01-31 18:05:33 [main] INFO  services.AuthService - [AuthService] Response received in 382 ms
-2025-01-31 18:05:33 [main] INFO  services.AuthService - [AuthService] Authentication successful. Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0NjczNCwiZXhwIjoxNzM4MzUwMzM0fQ.AKm73GZoq_T3hLmtv8L1TNexSsqgXCcLj88glMCikBQ
-2025-01-31 18:05:33 [main] INFO  tests.AuthTests - [Test Case 2.2] Token format is valid
-2025-01-31 18:05:33 [main] INFO  tests.AuthTests - [Test Case 2] Token format validation PASSED!
+  <testcase name="testTokenFormat" classname="tests.AuthTests" time="0.394">
+    <system-out><![CDATA[2025-01-31 18:24:14 [main] INFO  tests.AuthTests - [Test Case 2.1] Checking token format...
+2025-01-31 18:24:14 [main] INFO  services.AuthService - [AuthService] Requesting authentication token...
+2025-01-31 18:24:15 [main] INFO  services.AuthService - [AuthService] Response received in 375 ms
+2025-01-31 18:24:15 [main] INFO  services.AuthService - [AuthService] Authentication successful. Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODM0Nzg1NSwiZXhwIjoxNzM4MzUxNDU1fQ.YsLo3GEEtCLd1cae93GBj9Oxo6uZkSv-5BaA6q0QLW8
+2025-01-31 18:24:15 [main] INFO  tests.AuthTests - [Test Case 2.2] Token format is valid
+2025-01-31 18:24:15 [main] INFO  tests.AuthTests - [Test Case 2] Token format validation PASSED!
 ]]></system-out>
   </testcase>
 </testsuite>
