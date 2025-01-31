@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.315" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.592" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/kekeli/Desktop/videogame-api-test/target/test-classes:/Users/kekeli/Desktop/videogame-api-test/target/classes:/Users/kekeli/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/kekeli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kekeli/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/kekeli/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/kekeli/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/kekeli/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/kekeli/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/kekeli/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2/httpclient5-5.2.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/kekeli/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/kekeli/.m2/repository/org/testng/testng/7.7.0/testng-7.7.0.jar:/Users/kekeli/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/kekeli/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/kekeli/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/kekeli/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/kekeli/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/kekeli/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/kekeli/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/kekeli/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/kekeli/.m2/repository/org/json/json/20210307/json-20210307.jar:"/>
+    <property name="java.class.path" value="/Users/kekeli/Desktop/videogame-api-test/target/test-classes:/Users/kekeli/Desktop/videogame-api-test/target/classes:/Users/kekeli/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/kekeli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kekeli/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/kekeli/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/kekeli/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/kekeli/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/kekeli/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/kekeli/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2/httpclient5-5.2.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/kekeli/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/kekeli/.m2/repository/org/testng/testng/7.7.0/testng-7.7.0.jar:/Users/kekeli/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/kekeli/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/kekeli/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/kekeli/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/kekeli/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/kekeli/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/kekeli/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/kekeli/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kekeli/.m2/repository/io/qameta/allure/allure-testng/2.21.0/allure-testng-2.21.0.jar:/Users/kekeli/.m2/repository/io/qameta/allure/allure-java-commons/2.21.0/allure-java-commons-2.21.0.jar:/Users/kekeli/.m2/repository/io/qameta/allure/allure-model/2.21.0/allure-model-2.21.0.jar:/Users/kekeli/.m2/repository/io/qameta/allure/allure-test-filter/2.21.0/allure-test-filter-2.21.0.jar:/Users/kekeli/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -13,10 +13,11 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/kekeli/Desktop/videogame-api-test/target/surefire/surefirebooter-20250130123348974_3.jar /Users/kekeli/Desktop/videogame-api-test/target/surefire 2025-01-30T12-33-48_939-jvmRun1 surefire-20250130123348974_1tmp surefire_0-20250130123348974_2tmp"/>
+    <property name="sun.java.command" value="/Users/kekeli/Desktop/videogame-api-test/target/surefire/surefirebooter-20250131135249396_3.jar /Users/kekeli/Desktop/videogame-api-test/target/surefire 2025-01-31T13-52-49_248-jvmRun1 surefire-20250131135249396_1tmp surefire_0-20250131135249396_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/kekeli/Desktop/videogame-api-test/target/test-classes:/Users/kekeli/Desktop/videogame-api-test/target/classes:/Users/kekeli/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/kekeli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kekeli/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/kekeli/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/kekeli/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/kekeli/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/kekeli/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/kekeli/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2/httpclient5-5.2.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/kekeli/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/kekeli/.m2/repository/org/testng/testng/7.7.0/testng-7.7.0.jar:/Users/kekeli/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/kekeli/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/kekeli/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/kekeli/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/kekeli/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/kekeli/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/kekeli/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/kekeli/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/kekeli/.m2/repository/org/json/json/20210307/json-20210307.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/kekeli/Desktop/videogame-api-test/target/test-classes:/Users/kekeli/Desktop/videogame-api-test/target/classes:/Users/kekeli/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/kekeli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/kekeli/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/kekeli/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/kekeli/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/kekeli/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/kekeli/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/kekeli/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/kekeli/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2/httpclient5-5.2.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/kekeli/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/kekeli/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/kekeli/.m2/repository/org/testng/testng/7.7.0/testng-7.7.0.jar:/Users/kekeli/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/kekeli/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/kekeli/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/kekeli/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/kekeli/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/kekeli/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/kekeli/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/kekeli/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/kekeli/.m2/repository/org/json/json/20210307/json-20210307.jar:/Users/kekeli/.m2/repository/io/qameta/allure/allure-testng/2.21.0/allure-testng-2.21.0.jar:/Users/kekeli/.m2/repository/io/qameta/allure/allure-java-commons/2.21.0/allure-java-commons-2.21.0.jar:/Users/kekeli/.m2/repository/io/qameta/allure/allure-model/2.21.0/allure-model-2.21.0.jar:/Users/kekeli/.m2/repository/io/qameta/allure/allure-test-filter/2.21.0/allure-test-filter-2.21.0.jar:/Users/kekeli/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:"/>
+    <property name="allure.results.directory" value="target/allure-results"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/kekeli"/>
     <property name="user.language" value="en"/>
@@ -30,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/kekeli/Desktop/videogame-api-test/target/surefire/surefirebooter-20250130123348974_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/kekeli/Desktop/videogame-api-test/target/surefire/surefirebooter-20250131135249396_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -58,16 +59,108 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testCreateGame" classname="tests.GameTests" time="1.651">
+  <testcase name="testCreateGame" classname="tests.GameTests" time="1.56">
+    <system-out><![CDATA[
+[Test Case 3.1] Creating a new game: NewGame1738331569756
+[Test Case 3.2] Received response: {
+    "id": 0,
+    "name": "NewGame1738331569756",
+    "releaseDate": "2025-01-30",
+    "reviewScore": 95,
+    "category": "Adventure",
+    "rating": "Everyone"
+}
+[Test Case 3.3] ✅ Status code is 200
+[Test Case 3.4] ✅ Response contains the correct game name
+[Test Case 3.5] ✅ Response contains the correct game category
+[Test Case 3] ✅ Game creation test PASSED!
+]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testDeleteGame" classname="tests.GameTests" time="2.211"/>
-  <testcase name="testGetAllGames" classname="tests.GameTests" time="0.439"/>
-  <testcase name="testGetGameById" classname="tests.GameTests" time="0.441"/>
-  <testcase name="testUpdateGame" classname="tests.GameTests" time="0.897"/>
-  <testcase name="testConfigValues" classname="tests.ConfigTest" time="0.001"/>
-  <testcase name="testAuthentication" classname="tests.AuthTests" time="0.47"/>
+  <testcase name="testDeleteGame" classname="tests.GameTests" time="1.885">
+    <system-out><![CDATA[
+[Test Case 5.1] Attempting to create a game for deletion test: TestGame1738331571298
+[Test Case 5.2] Received response: {
+    "id": 0,
+    "name": "TestGame1738331571298",
+    "releaseDate": "2025-01-30",
+    "reviewScore": 95,
+    "category": "Action",
+    "rating": "Mature"
+}
+[Test Case 5.3] ✅ Game creation simulated (Read-Only)
+[Test Case 5.4] Extracted Game ID for deletion: 0
+[Test Case 5.5] Attempting to delete game ID: 0
+[Test Case 5.6] Received response: {
+    "timestamp": "2025-01-31T13:52:52.943+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/videogame/0"
+}
+[Test Case 5.7] ✅ Delete request acknowledged, but game is not actually removed (Read-Only Mode)
+[Test Case 5.8] ✅ Verified game is not found after deletion attempt
+[Test Case 5] ✅ Delete Game test PASSED! (Read-Only Mode)
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAllGames" classname="tests.GameTests" time="0.392">
+    <system-out><![CDATA[🔹 [Test Case 1.1] Starting test: Fetch all games...
+🔹 Sending request to fetch all games...
+✅ Response received: Status Code -> 200
+✅ [Test Case 1.2] Status code 200: PASSED
+✅ [Test Case 1.3] Response contains 'id' field: PASSED
+✅ [Test Case 1.4] Response contains 'name' field: PASSED
+✅ [Test Case 1.5] Response contains 'category' field: PASSED
+✅ [Test Case 1.6] Response contains 'reviewScore' field: PASSED
+✅ [Test Case 1.7] At least one game exists in list: PASSED
+✅ [Test Case 1.8] Valid Game ID: 1 PASSED
+✅ [Test Case 1.8] Valid Game ID: 2 PASSED
+✅ [Test Case 1.8] Valid Game ID: 3 PASSED
+✅ [Test Case 1.8] Valid Game ID: 4 PASSED
+✅ [Test Case 1.8] Valid Game ID: 5 PASSED
+✅ [Test Case 1.8] Valid Game ID: 6 PASSED
+✅ [Test Case 1.8] Valid Game ID: 7 PASSED
+✅ [Test Case 1.8] Valid Game ID: 8 PASSED
+✅ [Test Case 1.8] Valid Game ID: 9 PASSED
+✅ [Test Case 1.8] Valid Game ID: 10 PASSED
+🎉 [Test Case 1] Get all games: COMPLETED SUCCESSFULLY!
+]]></system-out>
+  </testcase>
+  <testcase name="testGetGameById" classname="tests.GameTests" time="0.361">
+    <system-out><![CDATA[
+[Test Case 2.1] Fetching game with ID: 1
+[Test Case 2.2] Received response: {
+    "id": 1,
+    "name": "Resident Evil 4",
+    "releaseDate": "2005-10-01 23:59:59",
+    "reviewScore": 85,
+    "category": "Shooter",
+    "rating": "Universal"
+}
+[Test Case 2.3] ✅ Status code is 200
+[Test Case 2.4] ✅ Response contains correct Game ID
+[Test Case 2] ✅ Game fetch test PASSED!
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateGame" classname="tests.GameTests" time="0.74">
+    <system-out><![CDATA[
+[Test Case 4.1] Attempting to update Game ID: 1
+[Test Case 4.2] Received response: {
+    "id": 1,
+    "name": "Updated Game 1738331573939",
+    "releaseDate": "2025-02-01",
+    "reviewScore": 99,
+    "category": "Action",
+    "rating": "Teen"
+}
+[Test Case 4.3] ✅ Status code is 200
+[Test Case 4.4] ✅ Response contains the updated game name
+[Test Case 4.5] ✅ Response contains the updated game category
+[Test Case 4] ✅ Game update test PASSED (But data is not persisted due to read-only mode)
+]]></system-out>
+  </testcase>
+  <testcase name="testConfigValues" classname="tests.ConfigTest" time="0.002"/>
+  <testcase name="testAuthentication" classname="tests.AuthTests" time="0.381"/>
 </testsuite>

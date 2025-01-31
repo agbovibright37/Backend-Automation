@@ -9,7 +9,7 @@ import io.restassured.response.Response;
 
 public class GameService {
 
-    // ✅ 1. List all games
+    /*// ✅ 1. List all games
     public static Response getAllGames() {
         RestAssured.baseURI = ConfigManager.getProperty("base.url");
 
@@ -20,6 +20,35 @@ public class GameService {
                 .then()
                 .extract()
                 .response();
+    } */
+    // ✅ 1. List all games with enhanced error handling
+    public static Response getAllGames() {
+        RestAssured.baseURI = ConfigManager.getProperty("base.url");
+
+        System.out.println("🔹 Sending request to fetch all games...");
+
+        Response response = null;
+        try {
+            response = given()
+                    .header("Accept", "application/json")
+                    .when()
+                    .get(ConfigManager.getProperty("games.endpoint"))
+                    .then()
+                    .extract()
+                    .response();
+
+            System.out.println("✅ Response received: Status Code -> " + response.getStatusCode());
+
+            if (response.getStatusCode() != 200) {
+                System.err.println("❌ Unexpected response: " + response.getBody().asPrettyString());
+            }
+
+        } catch (Exception e) {
+            System.err.println("❌ Error fetching games: " + e.getMessage());
+            throw new RuntimeException("Game fetch failed!", e);
+        }
+
+        return response;
     }
 
     // ✅ 2. Fetch a specific game by ID
