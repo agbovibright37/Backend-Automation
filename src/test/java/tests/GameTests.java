@@ -57,7 +57,7 @@ public class GameTests {
     @Description("Test to fetch a specific game by ID and validate its response")
     @Story("Get Game By ID")
     public void testGetGameById() {
-        int gameId = 1;  // Ensure this ID exists
+        int gameId = 1; 
 
         logger.info("[Test Case 2.1] Fetching game with ID: {}", gameId);
         Response response = GameService.getGameById(gameId);
@@ -99,7 +99,7 @@ public class GameTests {
         logger.info("[Test Case 3] Game creation test PASSED!");
     }
 
-    // ✅ 4. Test updating an existing game (Read-Only Mode)
+    // ✅ 4. Test updating an existing game
     @Test
     @Severity(SeverityLevel.NORMAL)
     @Description("Test updating an existing game with new details")
@@ -126,7 +126,7 @@ public class GameTests {
         logger.info("[Test Case 4] Game update test PASSED! (Read-Only Mode: Changes won’t persist)");
     }
 
-    // ✅ 5. Test deleting a game (Read-Only Mode)
+    // ✅ 5. Test deleting a game 
     @Test
     @Severity(SeverityLevel.BLOCKER)
     @Description("Test deleting a game from the system (should return 404 because API is read-only)")

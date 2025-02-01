@@ -1,8 +1,0 @@
-{
-    "id": 1,
-    "name": "Updated Game 1738347853285",
-    "releaseDate": "2025-02-01",
-    "reviewScore": 99,
-    "category": "Action",
-    "rating": "Teen"
-}

@@ -9,7 +9,7 @@ import io.restassured.response.Response;
 
 public class GameService {
 
-    //  1. List all games with enhanced error handling
+    //  1. List all games with some suggested error handling
     public static Response getAllGames() {
         RestAssured.baseURI = ConfigManager.getProperty("base.url");
 
@@ -56,7 +56,7 @@ public class GameService {
     public static Response createGame(String name, String releaseDate, int reviewScore, String category, String rating) {
         RestAssured.baseURI = ConfigManager.getProperty("base.url");
 
-        // Get Authentication Token from AuthService
+        //This will help get the Athentication token
         String authToken = AuthService.getAuthToken();
 
         // Create JSON body for game creation
@@ -82,7 +82,7 @@ public class GameService {
     public static Response updateGame(int gameId, String name, String releaseDate, int reviewScore, String category, String rating) {
         RestAssured.baseURI = ConfigManager.getProperty("base.url");
 
-        // Get Authentication Token
+        // This will help get the Athentication token
         String authToken = AuthService.getAuthToken();
 
         // Create JSON body for game update
@@ -112,7 +112,7 @@ public class GameService {
         String authToken = AuthService.getAuthToken();
 
         return given()
-                .header("Authorization", "Bearer " + authToken) // Ensure token is included
+                .header("Authorization", "Bearer " + authToken) 
                 .when()
                 .delete(ConfigManager.getProperty("games.endpoint") + "/" + gameId)
                 .then()

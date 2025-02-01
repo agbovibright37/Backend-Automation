@@ -21,7 +21,7 @@ public class AuthService {
         requestBody.put("username", "admin");  // Ensure correct credentials
         requestBody.put("password", "admin");
 
-        // Make API request
+        // This will make an API call to get the token
         Response response = given()
                 .baseUri(ConfigManager.getProperty("base.url")) // Set base URI
                 .contentType("application/json") // Ensure correct content type
@@ -53,7 +53,7 @@ public class AuthService {
         return token;
     }
 
-    // 2. Simulate Failed Authentication
+    // 2. This Simulate Failed Authentication
     public static String getInvalidAuthToken() {
         logger.info("[AuthService] Attempting authentication with invalid credentials...");
 

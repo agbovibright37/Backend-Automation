@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-02-01T10:57:17.166+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/videogame/0"
+}

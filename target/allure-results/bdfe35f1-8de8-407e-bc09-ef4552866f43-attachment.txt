@@ -1,8 +1,0 @@
-{
-    "id": 0,
-    "name": "NewGame1738346727262",
-    "releaseDate": "2025-01-30",
-    "reviewScore": 95,
-    "category": "Adventure",
-    "rating": "Everyone"
-}

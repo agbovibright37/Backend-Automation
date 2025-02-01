@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-31T18:24:08 GMT" name="Surefire suite" finished-at="2025-01-31T18:24:15 GMT" duration-ms="6261">
+  <suite started-at="2025-02-01T10:57:13 GMT" name="Surefire suite" finished-at="2025-02-01T10:57:20 GMT" duration-ms="6802">
     <groups>
     </groups>
-    <test started-at="2025-01-31T18:24:08 GMT" name="Surefire test" finished-at="2025-01-31T18:24:15 GMT" duration-ms="6261">
+    <test started-at="2025-02-01T10:57:13 GMT" name="Surefire test" finished-at="2025-02-01T10:57:20 GMT" duration-ms="6802">
       <class name="tests.ConfigTest">
-        <test-method signature="testConfigValues()[pri:0, instance:tests.ConfigTest@3fc9dfc5]" started-at="2025-01-31T18:24:14 GMT" name="testConfigValues" finished-at="2025-01-31T18:24:14 GMT" duration-ms="2" status="PASS">
+        <test-method signature="testConfigValues()[pri:0, instance:tests.ConfigTest@3fc9dfc5]" started-at="2025-02-01T10:57:19 GMT" name="testConfigValues" finished-at="2025-02-01T10:57:19 GMT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testConfigValues -->
       </class> <!-- tests.ConfigTest -->
       <class name="tests.GameTests">
-        <test-method signature="testCreateGame()[pri:0, instance:tests.GameTests@3ce3db41]" started-at="2025-01-31T18:24:08 GMT" name="testCreateGame" finished-at="2025-01-31T18:24:10 GMT" duration-ms="1582" status="PASS">
+        <test-method signature="testCreateGame()[pri:0, instance:tests.GameTests@3ce3db41]" started-at="2025-02-01T10:57:13 GMT" name="testCreateGame" finished-at="2025-02-01T10:57:15 GMT" duration-ms="1688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateGame -->
-        <test-method signature="testDeleteGame()[pri:0, instance:tests.GameTests@3ce3db41]" started-at="2025-01-31T18:24:10 GMT" name="testDeleteGame" finished-at="2025-01-31T18:24:12 GMT" duration-ms="1964" status="PASS">
+        <test-method signature="testDeleteGame()[pri:0, instance:tests.GameTests@3ce3db41]" started-at="2025-02-01T10:57:15 GMT" name="testDeleteGame" finished-at="2025-02-01T10:57:17 GMT" duration-ms="2118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteGame -->
-        <test-method signature="testGetAllGames()[pri:0, instance:tests.GameTests@3ce3db41]" started-at="2025-01-31T18:24:12 GMT" name="testGetAllGames" finished-at="2025-01-31T18:24:12 GMT" duration-ms="392" status="PASS">
+        <test-method signature="testGetAllGames()[pri:0, instance:tests.GameTests@3ce3db41]" started-at="2025-02-01T10:57:17 GMT" name="testGetAllGames" finished-at="2025-02-01T10:57:17 GMT" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllGames -->
-        <test-method signature="testGetGameById()[pri:0, instance:tests.GameTests@3ce3db41]" started-at="2025-01-31T18:24:12 GMT" name="testGetGameById" finished-at="2025-01-31T18:24:13 GMT" duration-ms="367" status="PASS">
+        <test-method signature="testGetGameById()[pri:0, instance:tests.GameTests@3ce3db41]" started-at="2025-02-01T10:57:17 GMT" name="testGetGameById" finished-at="2025-02-01T10:57:18 GMT" duration-ms="409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetGameById -->
-        <test-method signature="testUpdateGame()[pri:0, instance:tests.GameTests@3ce3db41]" started-at="2025-01-31T18:24:13 GMT" name="testUpdateGame" finished-at="2025-01-31T18:24:14 GMT" duration-ms="761" status="PASS">
+        <test-method signature="testUpdateGame()[pri:0, instance:tests.GameTests@3ce3db41]" started-at="2025-02-01T10:57:18 GMT" name="testUpdateGame" finished-at="2025-02-01T10:57:19 GMT" duration-ms="870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateGame -->
       </class> <!-- tests.GameTests -->
       <class name="tests.AuthTests">
-        <test-method signature="testAuthentication()[pri:0, instance:tests.AuthTests@40258c2f]" started-at="2025-01-31T18:24:14 GMT" name="testAuthentication" finished-at="2025-01-31T18:24:14 GMT" duration-ms="376" status="PASS">
+        <test-method signature="testAuthentication()[pri:0, instance:tests.AuthTests@40258c2f]" started-at="2025-02-01T10:57:19 GMT" name="testAuthentication" finished-at="2025-02-01T10:57:19 GMT" duration-ms="405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAuthentication -->
-        <test-method signature="testInvalidAuthentication()[pri:0, instance:tests.AuthTests@40258c2f]" started-at="2025-01-31T18:24:14 GMT" name="testInvalidAuthentication" finished-at="2025-01-31T18:24:14 GMT" duration-ms="368" status="PASS">
+        <test-method signature="testInvalidAuthentication()[pri:0, instance:tests.AuthTests@40258c2f]" started-at="2025-02-01T10:57:19 GMT" name="testInvalidAuthentication" finished-at="2025-02-01T10:57:19 GMT" duration-ms="411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidAuthentication -->
-        <test-method signature="testTokenFormat()[pri:0, instance:tests.AuthTests@40258c2f]" started-at="2025-01-31T18:24:14 GMT" name="testTokenFormat" finished-at="2025-01-31T18:24:15 GMT" duration-ms="392" status="PASS">
+        <test-method signature="testTokenFormat()[pri:0, instance:tests.AuthTests@40258c2f]" started-at="2025-02-01T10:57:19 GMT" name="testTokenFormat" finished-at="2025-02-01T10:57:20 GMT" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTokenFormat -->

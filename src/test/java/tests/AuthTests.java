@@ -21,7 +21,7 @@ public class AuthTests {
 
     private static final Logger logger = LogManager.getLogger(AuthTests.class);
 
-    // 1. Basic Authentication Test
+    //Auth1. Verify authentication with valid credentials 
     @Test
     @Severity(SeverityLevel.BLOCKER)
     @Description("Test to verify successful authentication and token retrieval")
@@ -42,7 +42,7 @@ public class AuthTests {
         logger.info("[Test Case 1] Authentication test PASSED!");
     }
 
-    // 2. Validate Token Format
+    // Auth 2. Validate Token Format
     @Test
     @Severity(SeverityLevel.CRITICAL)
     @Description("Test to ensure authentication token format is valid")
@@ -55,14 +55,14 @@ public class AuthTests {
 
         assertNotNull(token, "Token should not be null");
 
-        // Ensure token follows JWT format (Header.Payload.Signature)
+        // Ensure token follows the standard format
         assertTrue(token.contains("."), "Token format should contain at least one '.' separator");
         logger.info("[Test Case 2.2] Token format is valid");
 
         logger.info("[Test Case 2] Token format validation PASSED!");
     }
 
-    // 3. Handle Failed Authentication
+    // Auth 3. This is to help Handle Failed Authentication
     @Test
     @Severity(SeverityLevel.CRITICAL)
     @Description("Test to simulate failed authentication with invalid credentials")
@@ -70,10 +70,10 @@ public class AuthTests {
     public void testInvalidAuthentication() {
         logger.info("[Test Case 3.1] Attempting authentication with invalid credentials...");
 
-        String invalidToken = AuthService.getInvalidAuthToken(); // You'll need to add this method in AuthService
+        String invalidToken = AuthService.getInvalidAuthToken(); 
         Allure.addAttachment("Invalid Token Response", invalidToken);
 
-        // Ensure authentication fails and returns no valid token
+        // here authentication should fail and returns no valid token
         assertTrue(invalidToken == null || invalidToken.isEmpty(), "Expected authentication failure, but received a token");
         logger.info("[Test Case 3.2] Authentication correctly failed with invalid credentials");
 
